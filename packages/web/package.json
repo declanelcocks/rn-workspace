@@ -1,0 +1,27 @@
+{
+  "name": "@sofi/web",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "next": "latest",
+    "next-compose-plugins": "2.2.1",
+    "next-transpile-modules": "9.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-native-web": "0.17.5"
+  },
+  "devDependencies": {
+    "@types/node": "12.12.21",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.1",
+    "@types/react-native": "0.66.13",
+    "babel-plugin-react-native-web": "0.17.5",
+    "typescript": "4.5.4"
+  }
+}
